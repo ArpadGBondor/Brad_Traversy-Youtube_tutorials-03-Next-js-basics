@@ -9,4 +9,4 @@
 
 ## Deployed
 
-- [On Vercel]()
+- [On Vercel](https://gabriel-tutorials-next-js-crash-course.vercel.app/)
