@@ -19,8 +19,9 @@ export default function Home({ articles }) {
 // - getStaticPaths - dinamically generate paths based on the data we fetching
 
 export const getStaticProps = async () => {
-  const res = await fetch(`${server}/api/articles`);
-  const articles = await res.json();
+  // const res = await fetch(`${server}/api/articles`);
+  // const articles = await res.json();
+  const articles = [];
 
   return {
     props: {
